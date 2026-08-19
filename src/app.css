@@ -8,28 +8,28 @@
 
 @font-face {
     font-family: "Space Mono";
-    src: url("./fonts/spacemono.ttf") format("truetype");
+    src: url("/fonts/spacemono.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Space Mono";
-    src: url("./fonts/spacemono-bold.ttf") format("truetype");
+    src: url("/fonts/spacemono-bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Space Mono";
-    src: url("./fonts/spacemono-italic.ttf") format("truetype");
+    src: url("/fonts/spacemono-italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Space Mono";
-    src: url("./fonts/spacemono-bolditalic.ttf") format("truetype");
+    src: url("/fonts/spacemono-bolditalic.ttf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
