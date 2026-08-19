@@ -58,5 +58,9 @@
         #logo {
             gap: 1rem;
         }
+
+        #left-section {
+            padding: 1rem;
+        }
     }
 </style>
