@@ -9,23 +9,23 @@
 
 <div id="links">
     <a class="link" href={LINKS.email} target="_blank">
-        <Mail />
+        <Mail size={16} />
     </a>
 
     <a class="link" href={LINKS.github} target="_blank">
-        <SiGithub />
+        <SiGithub size={16} />
     </a>
 
     <a class="link" href={LINKS.twitter} target="_blank">
-        <SiX />
+        <SiX size={16} />
     </a>
 
     <a class="link" href={LINKS.linkedin} target="_blank">
-        <Linkedin />
+        <Linkedin size={16} />
     </a>
 
     <a class="link" href={LINKS.phosphorus} target="_blank">
-        <Phosphorus />
+        <Phosphorus size={16} />
     </a>
 </div>
 
@@ -40,12 +40,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
         color: var(--text-color);
 
-        &:hover {
-            opacity: 50%;
+        @media (hover: hover) {
+            &:hover {
+                opacity: 50%;
+            }
         }
 
         &:active {

@@ -48,4 +48,15 @@
         align-items: center;
         gap: 2rem;
     }
+
+    @media (max-width: 800px) {
+        :global(#logo svg) {
+            width: 36px;
+            height: 36px;
+        }
+
+        #logo {
+            gap: 1rem;
+        }
+    }
 </style>
