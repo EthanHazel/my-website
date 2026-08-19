@@ -59,7 +59,7 @@
         display: block;
         width: 100vh;
         height: 100vh;
-        background-image: url(./portrait/spiral.svg);
+        background-image: url(./spiral.svg);
         background-size: cover;
         background-position: center;
         transform: translate(-50%, -50%);
