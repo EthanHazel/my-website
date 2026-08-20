@@ -48,7 +48,7 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        object-position: left center;
+        object-position: left bottom;
         z-index: 2;
     }
 
