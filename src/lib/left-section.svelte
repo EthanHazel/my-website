@@ -51,8 +51,8 @@
 
     @media (max-width: 800px) {
         :global(#logo svg) {
-            width: 36px;
-            height: 36px;
+            width: 24px;
+            height: 24px;
         }
 
         #logo {
