@@ -32,6 +32,7 @@
         justify-content: space-between;
         align-items: flex-start;
         padding: 3rem;
+        gap: 1rem;
     }
 
     h1 {
